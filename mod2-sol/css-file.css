@@ -14,10 +14,10 @@ h1{
 	border-width: 1px
 	border-color: solid black;
 	padding: 5px;
-	background-color: 121212;
+	background-color:DDFF33 ;
 }
 .box{
-	background-color: 040302;
+	background-color: 64FF33;
 	position: relative;
 	float:right top;
 	width:20px;
