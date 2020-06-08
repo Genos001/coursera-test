@@ -53,7 +53,7 @@ WARNING!!! WARNING!!!
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
 
-(function(window){var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+(function(){var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 // STEP 10:
 // Loop over the names array and say either 'Hello' or "Good Bye"
@@ -66,10 +66,11 @@ for (var i=0;i<names.length;i++) {
   a=a.charAt(0)
 
   if (a=="j" || a=="J") {
-     byeSpeaker.ans;
+     byeSpeaker.name=names[i];
+     byeSpeaker.ans();
   } else {
      helloSpeaker.name=names[i];
-     helloSpeaker.ans;
+     helloSpeaker.ans();
   }
 }
-})(window);
+})();
